@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(194, 194, 194);
+  text-align: center;
+}
+
+.page-header {
+  font-family: "IM Fell English SC", serif;
+  font-size: 200px;
+}
+
+#generateNewsButton {
+  font-family: "IM Fell English SC", serif;
+  height: 50px;
+  width: 270px;
+  font-size: 30px;
+}
+
+#container {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newContainer {
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.newContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+}
