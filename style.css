@@ -13,6 +13,13 @@ body {
   height: 50px;
   width: 270px;
   font-size: 30px;
+  transition: 0.7s;
+}
+
+#generateNewsButton:hover {
+  background-color: white;
+  border: 3px solid rgb(42, 170, 230);
+  font-size: 35px;
 }
 
 #container {
